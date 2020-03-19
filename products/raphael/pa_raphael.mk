@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Paranoid Android
+# Copyright (C) 2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,23 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
+include device/qcom/common/common.mk
 include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Override AOSP build properties
-PRODUCT_NAME := pa_raphael
-PRODUCT_DEVICE := raphael
+# Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi K20 Pro
+PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_NAME := pa_raphael
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raphael-user-10-QKQ1.190825.002-V11.0.7.0.QFKEUXM-release-keys" \
-    PRODUCT_NAME="raphael" \
-    TARGET_DEVICE="raphael"
+BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
 endif
