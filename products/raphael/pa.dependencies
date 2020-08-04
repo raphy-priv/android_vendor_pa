@@ -1,24 +1,6 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_raphael",
-        "target_path":  "device/xiaomi/raphael",
-        "revision":     "quartz"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_sm8150",
-        "target_path":  "kernel/xiaomi/sm8150",
-        "revision":     "quartz-raphael"
-    },
-    {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "quartz"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "quartz"

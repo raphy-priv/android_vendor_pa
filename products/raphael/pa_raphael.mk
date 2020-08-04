@@ -25,13 +25,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/xiaomi/raphael/msmnile.mk)
+$(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 9T Pro
+PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
