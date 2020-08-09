@@ -64,7 +64,8 @@ PRODUCT_PACKAGES += \
     ChromeModernPublic \
     MarkupGoogle \
     MatchmakerPrebuilt \
-    SnapdragonGallery
+    SnapdragonGallery \
+    SoundPickerPrebuilt
 endif
 
 # QTI VNDK Framework Detect
