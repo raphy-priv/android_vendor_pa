@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSP Packages
 PRODUCT_PACKAGES += \
     ThemePicker
@@ -70,10 +66,6 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
-
-# Retro Music Player
-PRODUCT_PACKAGES += \
-    RetroMusicPlayer
 
 # Shell
 PRODUCT_PACKAGES += \
