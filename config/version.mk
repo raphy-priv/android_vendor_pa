@@ -27,7 +27,7 @@ ifndef PA_VERSION_FLAVOR
   # This is the global pa version flavor that determines the focal point
   # behind our releases. This is bundled alongside the $(PA_VERSION_CODE)
   # and only changes per major Android releases.
-  PA_VERSION_FLAVOR := Quartz
+  PA_VERSION_FLAVOR := Random
 endif
 
 ifndef PA_VERSION_CODE
