@@ -38,7 +38,6 @@ endif
 
 PRODUCT_PACKAGES += \
     Longshot \
-    ParanoidPapers \
     ParanoidQuickStep
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
