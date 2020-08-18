@@ -37,7 +37,6 @@ PRODUCT_PACKAGES += ParanoidCamera
 endif
 
 PRODUCT_PACKAGES += \
-    Longshot \
     ParanoidQuickStep
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
