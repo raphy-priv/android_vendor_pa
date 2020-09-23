@@ -14,7 +14,9 @@
 
 # AOSP Packages
 PRODUCT_PACKAGES += \
-    ThemePicker
+    ThemePicker \
+    DeskClock \
+    Snap
 
 # Charger Images
 PRODUCT_PACKAGES += \
